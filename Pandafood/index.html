@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Pandafood</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#">
+        <img class="logo" src="img/omnifood-logo.png" alt="Pandafood logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero grid grid--2-cols">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Rediscover Chinese Flavors delivered to You, every single day
+            </h1>
+            <p class="hero-description">
+              Reignite your passion for Chinese cuisine while managing your work
+              commitments in the USA. Pandafood tailors your Chinese food
+              preferences to your taste buds. Join the countless satisfied
+              customers who've savored our exquisite meals!
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Start enjoying Pandafood</a
+            >
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-people">
+                <img
+                  src="img/customers/customer-1.jpg"
+                  alt="customer's picture 1"
+                />
+                <img
+                  src="img/customers/customer-2.jpg"
+                  alt="customer's picture 2"
+                />
+                <img
+                  src="img/customers/customer-3.jpg"
+                  alt="customer's picture 3"
+                />
+                <img
+                  src="img/customers/customer-4.jpg"
+                  alt="customer's picture 4"
+                />
+                <img
+                  src="img/customers/customer-5.jpg"
+                  alt="customer's picture 5"
+                />
+              </div>
+              <p class="delivered-text">
+                <span>80,000+</span> meals delivered last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/hero.png"
+              class="hero-img"
+              alt="people enjoying the food"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="" />
+            <img src="img/logos/business-insider.png" alt="" />
+            <img src="img/logos/the-new-york-times.png" alt="" />
+            <img src="img/logos/usa-today.png" />
+            <img src="img/logos/forbes.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How It Works</span>
+          <h2 class="heading-secondary">
+            Your daily dose of health in 3 simple steps
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- step 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-third">Share Your Preferences</h3>
+            <p class="step-description">
+              Share Your Preferences: Never waste time deciding what to order.
+              Our AI system creates a personalized weekly Chinese meal plan
+              tailored to your preferences, ensuring you get the flavors you
+              love.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img src="img/app/app-screen-1.png" class="step-img" />
+          </div>
+
+          <!-- step 02 -->
+
+          <div class="step-img-box">
+            <img src="img/app/app-screen-2.png" class="step-img" />
+          </div>
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-third">Review Your Meal Plan</h3>
+            <p class="step-description">
+              Once a week, review and approve your customized meal plan. You
+              have the freedom to modify ingredients, swap entire meals, or even
+              add your favorite Chinese recipes.
+            </p>
+          </div>
+
+          <!-- step 03 -->
+
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-third">Enjoy Convenient Delivery</h3>
+            <p class="step-description">
+              Our top-rated local chefs will prepare your chosen Chinese meals
+              daily, delivering them to your doorstep at your preferred time.
+              You can adjust your delivery schedule and location as needed.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img src="img/app/app-screen-3.png" class="step-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container">
+          <span class="subheading">Sample Meal</span>
+          <h2 class="heading-secondary">
+            Pandafood AI chooses from 5,000+ recipes
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="meal">
+            <img src="img/meals/meal-1.jpg" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Sichuan</span>
+              </div>
+              <p class="meal-title">Kung Pao Chicken</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>600</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong>4.9</strong> rating</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon
+                  >NutriScore &reg; 74
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/meals/meal-2.jpg" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Chow Mein</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>450</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong>4.8</strong> rating</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon
+                  >NutriScore &reg; 92
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="diets">
+            <h3 class="heading-third">Works with any flavors:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Sichuan Spicy
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Cantonese
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Vegetarian Vegan
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Gluten-free
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Lactose-free
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- step 04 -->
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonial-container">
+          <span class="subheading">Customer Review</span>
+          <h2 class="heading-secondary">Start your Pandafood journey</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/dave.jpg"
+                alt=""
+              />
+              <blockquote class="testimonial-text">
+                "Pandafood is a game-changer for my work-life balance. Delicious
+                Chinese food delivered effortlessly!"
+              </blockquote>
+              <p class="testimonial-name">&mdash; David Chen</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/hannah.jpg"
+                alt=""
+              />
+              <blockquote class="testimonial-text">
+                "The AI-driven system knows my Chinese food cravings better than
+                I do. It's a culinary adventure every day!"
+              </blockquote>
+              <p class="testimonial-name">&mdash; Emily Li</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/steve.jpg"
+                alt=""
+              />
+              <blockquote class="testimonial-text">
+                "I rely on Pandafood to keep me fueled at work. It's convenient,
+                healthy, and eco-friendly."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Michael Wang</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img class="testimonial-img" src="img/customers/ben.jpg" alt="" />
+              <blockquote class="testimonial-text">
+                "My colleagues and I enjoy authentic Chinese meals without
+                leaving the office. It's a hit!"
+              </blockquote>
+              <p class="testimonial-name">&mdash; Sarah Liu</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery01.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery02.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery03.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery10.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery12.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery06.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery11.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery08.jpg" alt="" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery09.jpg" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- step 05 -->
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">2 pricing plans</h2>
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <div class="pricing-plan pricing-plan-starter">
+            <header class="plan-header">
+              <p class="plan-name">Basic Plan</p>
+              <p class="plan-price"><span>$</span>299</p>
+              <p class="plan-text">per month. $10 per day for meal</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >1 meal per day
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Order from 11am to 9pm
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Free delivery
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon
+                >Exclusive access to new Chinese recipes
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start your subscriptions</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan-complete">
+            <header class="plan-header">
+              <p class="plan-name">Premium Plan</p>
+              <p class="plan-price"><span>$</span>499</p>
+              <p class="plan-text">per month. $17 per day for meal</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >2 meal per day
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >24/7 ordering
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Free delivery
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                >Exclusive access to new Chinese recipes
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start your subscriptions</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- step 06 -->
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="restaurant-outline"></ion-icon>
+          <p class="feature-title">Effortless Dining</p>
+          <p class="feature-text">
+            Enjoy year-round Chinese food delivery, including holidays and
+            weekends.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+          <p class="feature-title">Eco-Friendly</p>
+          <p class="feature-text">
+            We prioritize the environment with reusable containers for all
+            deliveries.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon
+            class="feature-icon"
+            name="shield-checkmark-outline"
+          ></ion-icon>
+          <p class="feature-title">Real Ingredients</p>
+          <p class="feature-text">
+            Our partner restaurants use the freshest and most authentic
+            ingredients.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon class="feature-icon" name="play-circle-outline"></ion-icon>
+          <p class="feature-title">Pause anytime</p>
+          <p class="feature-text">
+            Pause your subscription anytime, and we'll refund unused days.
+          </p>
+        </div>
+      </div>
+
+      <!-- step 07 -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free</h2>
+              <p class="cta-text">
+                Delight in the taste of authentic Chinese cuisine. Start
+                enjoying amazing meals today with no commitments. Your first
+                meal is on us!
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Your Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Your Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Phone Number</label>
+                  <input id="phone" type="phone" placeholder="1234567890" />
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+
+            <div class="cta-img-box" role="img"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              src="img/omnifood-logo.png"
+              alt="Pandafood logo"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyrigth">copyrigth &copy; 2023</p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">123 Main St., Suite 456, New York, NY 10001</p>
+            <a class="footer-link" href="212-555-1234">212-555-1234</a><br />
+            <a class="footer-link" href="hello@pandafood.com"
+              >hello@pandafood.com</a
+            >
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in </a></li>
+            <li><a class="footer-link" href="#">IOS app</a></li>
+            <li><a class="footer-link" href="#">Androind app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+            <li><a class="footer-link" href="#">About Pandafood</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Privacy & term</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
